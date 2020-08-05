@@ -1,3 +1,3 @@
 import React from "react";
 
-export default () => <div style={{ height: 24, lineHeight: 24 }}>About us</div>;
+export default () => <div style={{ height: "80vh" }}>About us</div>;

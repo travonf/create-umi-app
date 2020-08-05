@@ -1,9 +1,9 @@
 import React from "react";
+import { request } from "umi";
 import { Tooltip, Popover } from "antd";
 import { FileImageTwoTone, SkinTwoTone } from "@ant-design/icons";
 import ProTable, { ProColumns } from "@ant-design/pro-table";
 import { IResp, IData } from "./type";
-import request from "umi-request";
 
 const flatChildren = (acc: any, cur: any) => acc.concat(cur.children);
 

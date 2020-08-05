@@ -19,7 +19,7 @@ const resp = mockjs.mock({
       now: "@now",
       // Image
       img: "@img",
-      // dataImage: '@dataImage',
+      // dataImage: "@dataImage",
       // Color
       color: "@color",
       hex: "@hex",

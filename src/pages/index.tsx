@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "umi";
+import Logo from "../../public/assets/react.svg";
+import styles from "./style.less";
 
 export default () => (
-  <div style={{ height: 24, lineHeight: 24 }}>
-    Hello UmiJS.
-    <Link to="/about">&nbsp; Hello World</Link>
+  <div className={styles.wrapper}>
+    <img className={styles.logo} src={Logo} alt="logo" />
   </div>
 );
